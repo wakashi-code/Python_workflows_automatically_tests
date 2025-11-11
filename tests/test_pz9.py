@@ -1,5 +1,5 @@
 import pytest
-from sources.pz9 import Calculator
+from pz9 import Calculator
 
 
 class TestIntegration:
