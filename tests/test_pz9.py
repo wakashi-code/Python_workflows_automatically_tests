@@ -30,7 +30,7 @@ class TestIntegration:
         assert self.calculator.sum(-1000000, -2000000) == -3000000
 
 
-
+###########
     def test_subtraction_positive_numbers(self):
         assert self.calculator.subtruct(5, 3) == 2
         assert self.calculator.subtruct(10, 2) == 8
@@ -53,7 +53,7 @@ class TestIntegration:
         assert self.calculator.subtruct(-5000000, -2000000) == -3000000
 
 
-    # ТЕСТЫ УМНОЖЕНИЯ
+    ############
     def test_multiplication_positive_numbers(self):
         assert self.calculator.multiply(2, 3) == 6
         assert self.calculator.multiply(5, 4) == 20
@@ -77,7 +77,7 @@ class TestIntegration:
         assert self.calculator.multiply(-1000, 2000) == -2000000
 
 
-    # ТЕСТЫ ДЕЛЕНИЯ
+#############
     def test_division_positive_numbers(self):
         assert self.calculator.division(6, 3) == 2
         assert self.calculator.division(10, 2) == 5
